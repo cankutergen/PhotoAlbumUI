@@ -94,6 +94,7 @@ export default function Overview() {
 
     const onAlbumSelectedHandler = (album) => {
         setSelectedAlbum(album);
+        setPhotos([]);
     }
 
     const onUserSelectedHandler = (user) => {
