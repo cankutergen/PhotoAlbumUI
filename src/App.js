@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Slider from "./components/HorizontalSlider/HorizontalSlider";
+import Overview from "./views/Overview/Overview";
 
 function App() {
   return (
     <div className="App">
-      <Slider />
+      <Overview />
     </div>
   );
 }
